@@ -118,14 +118,14 @@ tr:nth-child(even) {
 
 .addButton:hover {
     color: white;
-    background-color: #7b2cbf;
+    background-color: #C00707;
     border-color: white;
     transition-duration: 0.3s;
 }
 
 .backButton:hover {
     color: white;
-    background-color: #7b2cbf;
+    background-color: #C00707;
     border-color: white;
     transition-duration: 0.3s;
 }
