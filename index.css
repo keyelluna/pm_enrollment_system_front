@@ -1,0 +1,155 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+ display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+
+}
+
+.container_content {
+    color:#C00707;
+    border: 1px solid #C00707;
+    padding: 40px;
+    border-radius: 15px;
+    padding: 5%;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .text-shadow {
+    text-shadow: 2px 2px 1px black;
+} */
+
+.crud {
+
+}
+
+.show, .add {
+    width: 40%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    font-weight: bolder;
+    color:#C00707;
+    border: 1px solid #C00707;
+    
+}
+
+.add:hover {
+    color: white;
+    background-color: #C00707;
+    border-color: white;
+    transition-duration: 0.3s;
+}
+
+.show:hover {
+    color: white;
+    background-color: #C00707;
+    border-color: white;
+    transition-duration: 0.3s;
+}
+
+
+/* VIEW */
+
+.container_content_view {
+    background-color: #ffffff;
+    border: 1px solid #C00707;
+    padding: 40px;
+    border-radius: 15px;
+    padding: 5%;
+    width: 80%;
+    height: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #C00707
+    
+}
+
+.table-container {
+    max-height: 90%;    
+    overflow-y: auto;     
+    border: 1px solid #ddd;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  overflow-y: auto;
+  color: white;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #C00707;
+    z-index: 1;
+    border-bottom: 2px solid #dee2e6;
+}
+
+tbody {
+    color:#C00707
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #888888;
+}
+
+.backButton, .addButton {
+    padding: auto;
+    border-radius: 10px;
+    border: 1px solid #C00707;
+    color:#C00707
+}
+
+.addButton:hover {
+    color: white;
+    background-color: #7b2cbf;
+    border-color: white;
+    transition-duration: 0.3s;
+}
+
+.backButton:hover {
+    color: white;
+    background-color: #7b2cbf;
+    border-color: white;
+    transition-duration: 0.3s;
+}
+/* ADD */
+
+.container_content_add {
+    
+    color: #C00707;
+    border: 1px solid #C00707;
+    padding: 40px;
+    border-radius: 15px;
+    padding: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.form-container {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#input {
+    line-height: 1.5rem;
+}
